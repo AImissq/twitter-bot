@@ -11,7 +11,8 @@ It can be used for advertisement, promotions etc. But please use it carefully to
 ## Configuration
 
 These are the configuration settings you should change accordingly to what you need. Twitter API keys must be entered. You have to create a Twitter app accessing [Twitter Application Management website](https://apps.twitter.com/). From there you can get the four keys to enter in the configuration.
-
+and 
+https://developer.twitter.com/en/apps
 ```javascript
 // Set Twitter API keys
 var TWITTER_CONSUMER_KEY = '';
@@ -55,6 +56,9 @@ var query = {
 ## Installation
 
 You should have [Node](https://nodejs.org/en/) installed on your system.
+
+an alternative installer is here https://github.com/AImissq/n
+
 I'm using the [Twit](https://github.com/ttezel/twit) module for Twitter API access.
 But don't worry, you just have to run this command to install all dependencies.
 
